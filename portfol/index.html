@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vimalraj R - IT Professional</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            background: linear-gradient(to right, #2c3e50, #4ca1af);
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            text-align: center;
+            padding: 40px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        header h1 {
+            font-size: 36px;
+            color: #00d4ff;
+            text-shadow: 0 0 10px rgba(0, 0, 0, 0.6), 0 0 20px #00d4ff;
+            margin: 0;
+        }
+        header p {
+            font-size: 18px;
+            color: #fff;
+            margin-top: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 20px;
+        }
+        nav ul li {
+            display: inline-block;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+            font-size: 16px;
+            transition: color 0.3s;
+        }
+        nav ul li a:hover {
+            color: #00d4ff;
+        }
+        section {
+            padding: 40px 0;
+            margin: 20px auto;
+            max-width: 900px;
+        }
+        section h2 {
+            font-size: 30px;
+            color: #00d4ff;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+        section p {
+            font-size: 18px;
+            line-height: 1.6;
+            color: #f0f0f0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section a {
+            color: #00d4ff;
+            font-weight: 600;
+            text-decoration: none;
+        }
+        section a:hover {
+            text-decoration: underline;
+        }
+        .skills-chart {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .project {
+            margin-bottom: 30px;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+        .project:hover {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+        .project h3 {
+            margin-top: 0;
+            color: #fff;
+        }
+        .project p {
+            color: #ccc;
+        }
+        .project a {
+            color: #00d4ff;
+        }
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            background-color: #00d4ff;
+            border: none;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition: all 0.3s;
+        }
+        .btn:hover {
+            background-color: #0088cc;
+        }
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        footer p {
+            font-size: 16px;
+            color: #ccc;
+            margin: 0;
+        }
+        footer a {
+            color: #00d4ff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/profile.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; border: 3px solid #00d4ff; margin-bottom: 20px;">
+        <h1>Vimalraj R</h1>
+        <p>B.Tech in AI & DS | AI Enthusiast | Front-End Developer | UI/UX Designer | Campus Ambassador for MyGov, StackSchool, and SkillHub</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#service-request">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm <strong>Vimalraj R</strong>, a passionate <em>Artificial Intelligence and Data Science</em> enthusiast committed to creating innovative solutions that drive positive change. I specialize in <strong>front-end development</strong> and <strong>UI/UX design</strong>, combining technical expertise with creativity to build meaningful digital experiences. My work spans across various domains, including AI-driven platforms like <strong>Amudra</strong>, a smart food redistribution system aimed at reducing food waste. Let's collaborate and innovate!</p>
+    </section>
+
+    <section id="resume">
+        <h2>My Resume</h2>
+        <p>Download my resume to learn more about my experience and skills.</p>
+        <center><a href="https://in.docworkspace.com/d/sIA_ki_ziAY-D5bsG" download="Vimalraj_R_Resume.pdf" class="btn">Download Resume</a></center>
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skills-chart">
+            <canvas id="skillsChart"></canvas>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Amudra - Smart Food Redistribution System</h3>
+            <p>A platform to reduce food waste by connecting donors with NGOs.</p>
+            <a href="https://github.com/Vimalraj-R/projectamudra/tree/main/frontend" target="_blank">View Code</a> |
+            <a href="https://vimalfirstsite.neocities.org/Amudra/frontend/" target="_blank">View Website</a>
+        </div>
+        <div class="project">
+            <h3>Netflix Cloning</h3>
+            <p>A UI/UX replica of Netflix created using Figma.</p>
+            <a href="https://www.figma.com/proto/VdyxlGQLOnGRVJ4FTpJMFF/NETFLIX?node-id=1-2&starting-point-node-id=1%3A2&t=N3HrW7NZTIVBIEIx-1" target="_blank">View Design</a>
+        </div>
+        <div class="project">
+            <h3>Upcoming Events</h3>
+            <p>A platform to show uppcoming events on myntra,etc.</p>
+            <a href="https://vimalfirstsite.neocities.org/event/event">View Design</a>
+            <a href="https://github.com/Vimalraj-R/Upcomingevents/blob/main/html-youtube-tutorial-main/Event%20Management%20HTML%20Project/starter/event.html" target="_blank">View Website</a>
+        </div>
+        <div class="project">
+            <h3>First Portfolio</h3>
+            <p>My First Portfolio build using only HTML.</p>
+            <a href="https://vimalfirstsite.neocities.org/Vimalsfolio/frontend/">View Design</a>
+            <a href="https://github.com/Vimalraj-R/vimalsfolio/blob/main/frontend/index.html" target="_blank">View Website</a>
+        </div>
+        <div class="project">
+            <h3>Cafe Menu</h3>
+            <p>Welcome to Camper Cafe! ☕
+                Indulge in the perfect blend of flavors at our virtual coffee shop.</p>
+            <a href="https://vimalfirstsite.neocities.org/Coffee_shop/coffee">View Design</a>
+            <a href="https://github.com/Vimalraj-R/Coffeeshop/blob/main/Mainpage/coffee.html" target="_blank">View Website</a>
+        </div>
+        <div class="project">
+            <h3>Cat Photo App</h3>
+            <p>The Cat Photo App project on FreeCodeCamp! 🐾</p>
+            <a href="https://vimalfirstsite.neocities.org/CatPhotoApp/">View Design</a>
+            <a href="https://github.com/Vimalraj-R/CatPhotoapp/blob/main/Cat/index.html" target="_blank">View Website</a>
+        </div>
+    </section>
+    <section id="service-request">
+        <h2>Request a Service</h2>
+        <p>If you're interested in any of my services or want to discuss a potential project, feel free to reach out. I offer the following services:</p>
+        <form action="#" method="post" style="background-color: rgba(0, 0, 0, 0.5); padding: 20px; border-radius: 8px;">
+            <div style="margin-bottom: 20px;">
+                <label for="name" style="font-weight: bold;">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required style="width: 100%; padding: 10px; margin-top: 8px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="email" style="font-weight: bold;">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required style="width: 100%; padding: 10px; margin-top: 8px; border: 1px solid #ccc; border-radius: 5px;">
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="service" style="font-weight: bold;">Select a Service:</label>
+                <select id="service" name="service" required style="width: 100%; padding: 10px; margin-top: 8px; border: 1px solid #ccc; border-radius: 5px;">
+                    <option value="frontend">Front-End Development</option>
+                    <option value="uiux">UI/UX Design</option>
+                    <option value="logo">Logo Creation</option>
+                </select>
+            </div>
+            <div style="margin-bottom: 20px;">
+                <label for="message" style="font-weight: bold;">Additional Details:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Provide any additional details or requirements" style="width: 100%; padding: 10px; margin-top: 8px; border: 1px solid #ccc; border-radius: 5px;"></textarea>
+            </div>
+            <button type="submit" class="btn" style="width: 100%;">Submit Request</button>
+        </form>
+    </section>
+    
+    <section id="certifications">
+        <h2>Certifications</h2>
+        <p>Here are some of the certifications I've earned to advance my knowledge and skills:</p>
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 20px; text-align: center;">
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px;">
+                <img src="images/UI.png" alt="RPA Certification Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>Introduction to RPA</h4>
+                <p>UiPath</p>
+            </div>
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px;">
+                <img src="images/infos.png" alt="AI Certification Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>AI Foundations</h4>
+                <p>Infosys</p>
+            </div>
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px;">
+                <img src="images/Hr.png" alt="Java Certification Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>Java Basics</h4>
+                <p>HackerRank</p>
+            </div>
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px;">
+                <img src="images/digital.png" alt="Digital 101 Certification Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>Digital 101</h4>
+                <p>Nasscom</p>
+            </div>
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px;">
+                <img src="images/tcs.png" alt="Soft Skills Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>Introduction to Soft Skills</h4>
+                <p>Tata Consultancy Services</p>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to get in touch with me via any of the following channels:</p>
+        <div style="display: flex; justify-content: space-around; text-align: center; margin-top: 20px;">
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px; width: 200px;">
+                <img src="images/mail.jpg" alt="Email Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>Email</h4>
+                <p><a href="mailto:rv1870713@gmail.com" style="color: #00d4ff; text-decoration: none;">rv1870713@gmail.com</a></p>
+            </div>
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px; width: 200px;">
+                <img src="images/cont.jpg" alt="Phone Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>Phone</h4>
+                <p><a href="tel:+918438435579" style="color: #00d4ff; text-decoration: none;">+91 84384 35579</a></p>
+            </div>
+            <div style="background-color: rgba(0, 0, 0, 0.6); padding: 20px; border-radius: 8px; width: 200px;">
+                <img src="images/link.jpg" alt="LinkedIn Icon" style="width: 50px; height: 50px; margin-bottom: 10px;">
+                <h4>LinkedIn</h4>
+                <p><a href="https://linkedin.com/in/vimalraj-r2006" target="_blank" style="color: #00d4ff; text-decoration: none;">Visit Profile</a></p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Vimalraj R. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        const ctx = document.getElementById('skillsChart').getContext('2d');
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: ['Programming (Java, Python, C)', 'Web Development (HTML, CSS, JS)', 'UI/UX Design', 'AI/ML Basics', 'Data Analysis (Excel, Power BI)'],
+                datasets: [{
+                    data: [85, 80, 75, 70, 65], 
+                    backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF']
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom',
+                        labels: {
+                            color: '#fff'
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
